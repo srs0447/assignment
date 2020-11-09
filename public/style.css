@@ -1,0 +1,239 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+.header {
+  background-color: #bce1f6;
+}
+
+.navbar-brand img {
+  width: 80px;
+  height: 80;
+  left: 88px;
+  top: -26px;
+}
+.navbar .navbar-nav .nav-item {
+  padding-right: 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #303030;
+}
+.round-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffff;
+  background: #40a8c4;
+  border-radius: 36px;
+  padding: 8px 25px;
+}
+.round-button:hover {
+  text-decoration: none;
+  color: #ffff;
+}
+.header .hero-text {
+  margin-left: 20%;
+  margin-top: 10%;
+  padding-bottom: 30px;
+}
+
+.header .hero-text h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #303030;
+}
+
+.header .hero-text p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #303030;
+}
+
+.user-card {
+  display: flex;
+  margin-top: 3rem;
+  width: 60px;
+  height: 60px;
+}
+
+.user-card .logo {
+  filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.15));
+}
+.user-card .user-detail {
+  padding-top: 30%;
+  padding-left: 10px;
+}
+.user-card .user-detail .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 10px;
+  color: rgba(48, 48, 48, 0.9);
+  word-wrap: unset;
+}
+.user-card .user-detail p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 8px;
+
+  /* identical to box height */
+
+  color: #303030;
+}
+.mentor {
+  margin-top: 5rem;
+  padding: 3rem;
+}
+.mentor .m-logo {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.mentor img {
+  width: 200px;
+  height: 200px;
+}
+.rect-card {
+  padding: 1rem;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
+}
+.rect-card p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  padding: 20px;
+  font-size: 22px;
+  line-height: 30px;
+
+  color: rgba(48, 48, 48, 0.84);
+}
+.rect-card .by {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  position: absolute;
+  line-height: 18px;
+  right: 0;
+  bottom: 0;
+
+  color: rgba(48, 48, 48, 0.84);
+}
+
+.heading-underline {
+  text-align: center;
+  margin-top: 20px;
+  padding: 5rem;
+}
+.heading-underline .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+
+  /* identical to box height */
+
+  color: #303030;
+}
+.underline {
+  display: flex;
+  justify-content: center;
+}
+.underline .first {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #40a8c4;
+}
+.underline .last {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #40a8c4;
+}
+.underline .middle {
+  margin-top: 4px;
+  background-color: #40a8c4;
+  height: 3px;
+  width: 200px;
+}
+.e-card {
+  padding: 45px;
+  position: relative;
+}
+.e-card .photo img {
+  width: 70%;
+}
+.e-card .content {
+  margin-top: 50px;
+  width: 80%;
+}
+
+.e-card .content h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: #303030;
+}
+
+.e-card .content p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgba(48, 48, 48, 0.84);
+}
+.card {
+  border: none;
+}
+
+.footer {
+  background: #bce1f6;
+  text-align: center;
+  padding: 3rem;
+}
+.footer h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 73px;
+  line-height: 86px;
+
+  /* identical to box height */
+
+  color: #303030;
+}
+
+.phead {
+  margin-top: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #303030;
+}
